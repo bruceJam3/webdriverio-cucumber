@@ -6,7 +6,7 @@
     "scripts": {
         "test": "wdio run ./wdio.conf.js --spec login.feature",
         "wdio": "wdio run ./wdio.conf.js",
-        "allure-report": "./node_modules/.bin/allure generate Reports/allure-results --clean && allure open"
+        "allure-report": "./node_modules/.bin/allure generate Reports/allure-results && allure open"
     },
     "repository": {
         "type": "git",
